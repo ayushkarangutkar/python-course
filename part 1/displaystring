@@ -1,0 +1,7 @@
+name="soham"
+name2="Aryan"
+
+print(type(name))
+print(type(name2))
+print("The first name :- ",name)
+print("The second name:- ",name2)
