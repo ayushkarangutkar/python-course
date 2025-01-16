@@ -1,0 +1,10 @@
+num1=85;
+num2=90.9;
+num3=94.45789096790864447890;
+
+print(type(num1))
+print(type(num2))
+print(type(num3))
+print("The first num1 :- ",num1)
+print("The second num2:- ",num2)
+print("The third num3:- ",num3)
