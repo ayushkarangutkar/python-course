@@ -1,0 +1,4 @@
+name=input("Enter the name :- ")
+address=input("Enter the address:- ")
+print("The name:- ",name)
+print("The address:- ",address)
