@@ -1,0 +1,7 @@
+R=float(input("Enter the value of R:- "))
+T=float(input("Enter the value of T:- "))
+P=float(input("Enter the value of P:- ")) 
+
+print("\n")
+SI = (P*T*R) / 100 
+print("The simple interest = ",SI)
