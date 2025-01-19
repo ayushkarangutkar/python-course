@@ -1,6 +1,6 @@
 # The type_coversion (automatically or implicity )
-a=2;
-b=4.5;
+a=2
+b=4.5
 
-sum =a+b;
-print("The addition of two number:- ",sum);
+sum =a+b
+print("The addition of two number:- ",sum)
