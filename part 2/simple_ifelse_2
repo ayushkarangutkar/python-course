@@ -1,0 +1,7 @@
+
+marks=float(input("Enter the number:- "))
+
+if (marks<=100):
+    print("soham is topper and get the percentage:- ",marks)
+else:
+    print("soham is average and get the percentage:- ",marks)
