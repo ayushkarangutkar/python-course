@@ -1,0 +1,9 @@
+num=int(input("Enter the number:- "))
+
+if (num>0):
+    if(num<10):
+        print("The number is present :- ",num)
+    else:
+        print("The number is absent :- ",num)
+else:
+    print("number become naegative  ")
