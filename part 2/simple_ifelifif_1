@@ -1,0 +1,10 @@
+speed=int(input("Enter the speed of car:- "))
+
+if (speed<=100):
+    print("The speed of car is high:- ",speed)
+elif(speed<=70):
+    print("The speed of car is average:- ",speed)
+elif(speed<=40):
+    print("The speed of car is low:- ",speed)
+else: 
+    print("jar 100 cha var speed asel tar accident hoila mag mala nahi sangayche okay ki mi nahi sangitala  ")
