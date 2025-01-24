@@ -1,0 +1,12 @@
+'''
+number = int(input("Enter the number:- "))
+
+print("The multiplication of 3:- ")
+for i in range (1,11):
+    print(number," * ",i," = ",number*i)
+    
+'''
+
+print("The square of number:- ")
+for i in range(1,11):
+    print(i," * ",i," = ",i*i)
