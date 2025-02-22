@@ -1,0 +1,7 @@
+
+str = " i am sohamsimba "
+
+print("The string 1 :- ",str[1:3])
+print("The string 2:- ",str[:4])
+print("The string 3:- ",str[0:])
+print("The string 4:- ",str[-2:-1])
