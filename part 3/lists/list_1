@@ -1,0 +1,6 @@
+marks = [87,89,95,93]
+
+print("The marks are :- ",marks)
+print("The marks in 2:- ",marks[2])
+marks[1] = 90
+print("The new marks :- ",marks)
