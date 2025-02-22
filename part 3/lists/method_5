@@ -1,0 +1,4 @@
+lists = [95,84,90,89,97] 
+
+lists.remove(84)
+print("The remove :- ",lists)
