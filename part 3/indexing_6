@@ -1,0 +1,4 @@
+string = " i am studying in 9th "
+
+k = string.find("am")
+print(k)
