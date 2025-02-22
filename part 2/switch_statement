@@ -1,0 +1,9 @@
+lang = input("Enter the programming language:- ")
+
+match lang:
+      case "JAVA":
+          print(" You are the java developer ")
+      case "PHP":
+          print(" You are the php developer ")
+      case default:
+          print(" All language is not same ")
