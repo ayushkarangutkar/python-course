@@ -1,0 +1,4 @@
+str = "The programming language"
+
+k = str.replace("p","n")
+print(k)
