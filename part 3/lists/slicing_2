@@ -1,0 +1,6 @@
+know = ["soham",89.9,'D',81099765,91]
+
+print("The details :- ",know[2:4])
+print("The details 2:- ",know[0:4])
+print("The details 3:- ",know[-3:-1])
+print("The details 4:- ",know)
