@@ -1,0 +1,17 @@
+
+number = int(input("Enter the number:-  "))
+
+num1 = int(input("Enter the num1 :- "))
+num2 = int(input("Enter the num2 :- "))
+
+match number:
+      case 1:
+          print(" The addition :- ",num1 + num2)
+      case 2:
+          print(" The Subtraction :- ",num1 - num2)
+      case 3:
+          print(" The Multiplication :- ",num1 * num2)
+      case 4:
+          print(" The division :- ",num1 / num2)
+      case default:
+          print(" All are equals ")
