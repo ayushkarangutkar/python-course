@@ -1,0 +1,5 @@
+
+str = "i am studying in 10th std "
+
+k = str.capitalize()
+print(k)
