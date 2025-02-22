@@ -1,0 +1,6 @@
+employee = [" Arjun ",2371,"UK",90.4]
+
+print("The details :- ",employee)
+print("Employee index no 2:- ",employee[2])
+employee[3] = "USA"
+print("The new details :- ",employee)
