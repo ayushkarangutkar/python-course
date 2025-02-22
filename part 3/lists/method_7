@@ -1,0 +1,5 @@
+lists = ["soham","max","jake","hail"]
+
+print("The details :- ",lists)
+lists.sort()
+print("The ascend:- ",lists)
