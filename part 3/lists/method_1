@@ -1,0 +1,5 @@
+lists = [95,84,90,89,97] 
+
+print("The lists :- ",lists)
+s = lists.append(91)
+print("The append:- ",lists)
