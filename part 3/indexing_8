@@ -1,0 +1,22 @@
+string = " this is java programming language "
+
+
+print("\n")
+print("The capitalize method:- ")
+i = string.capitalize()
+print("The capitalize :- ",i)
+
+print("\n")
+print("The endswith method:- ")
+p = string.endswith("eg")
+print("The endswith :- ",p)
+
+print("\n")
+print("The find method:- ")
+e = string.find("is")
+print("The find :- ",e)
+
+print("\n")
+print("The count method:- ")
+k = string.count("a")
+print("The count:- ",k)
