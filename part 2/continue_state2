@@ -1,0 +1,7 @@
+# Initialize k as 'a'
+k = 'a'
+
+for k in range(ord('a'), ord('j')):  
+    if k == ord('b'):
+        continue 
+    print(chr(k))  
