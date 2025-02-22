@@ -1,0 +1,4 @@
+lists = [98,88,95,92]
+
+lists.pop(3)
+print("The pop :- ",lists)
