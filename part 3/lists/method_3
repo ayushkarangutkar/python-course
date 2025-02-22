@@ -1,0 +1,8 @@
+lists = [95,84,90,89,97] 
+
+print("The lists :- ",lists)
+i = lists.sort(reverse = True)
+print("The descend :- ",lists)
+s = lists.sort()
+print("The ascend :- ",lists)
+
