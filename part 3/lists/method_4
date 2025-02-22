@@ -1,0 +1,6 @@
+lists = [95,84,90,89,97] 
+
+print("The lists :- ",lists)
+m = lists.insert(lists[3],94)
+u = lists.insert(lists[4],92)
+print("The insert :- ",m,u)
