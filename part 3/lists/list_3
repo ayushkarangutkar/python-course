@@ -1,0 +1,14 @@
+owner = [" soham ",7717,"japan"," S&CO.lmt",500.00]
+
+print("The details :- ",owner)
+print("owner index no 4:- ",owner[4])
+owner[2] = "russia"
+print("The new details :- ",owner)
+
+print("\n")
+print("The all details :- ")
+print("The name of owner   :- ",owner[0])
+print("The id of owner     :- ",owner[1])
+print("The name of company :- ",owner[3])
+print("The name of country :- ",owner[2])
+print("The name of net worth :- ",owner[4],"$ Million")
