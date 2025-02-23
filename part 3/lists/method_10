@@ -1,0 +1,31 @@
+lists = [85,91,87,99]
+
+print("\n")
+print("The lists :- ",lists)
+lists.append(99)
+print(lists)
+
+print("\n")
+print("The lists :- ",lists)
+lists.sort()
+print(lists)
+
+print("\n")
+print("The lists :- ",lists)
+lists.reverse()
+print(lists)
+
+print("\n")
+print("The lists :- ",lists)
+lists.remove(87)
+print(lists)
+
+print("\n")
+print("The lists :- ",lists)
+lists.pop(91)
+print(lists)
+
+print("\n")
+print("The lists :- ",lists)
+lists.insert(lists[3],87)
+print(lists)
