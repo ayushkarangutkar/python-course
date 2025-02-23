@@ -1,0 +1,4 @@
+manager = (85,90,87,95)
+
+print("The manager :- ",manager)
+print("The manager:- ",manager[0])
