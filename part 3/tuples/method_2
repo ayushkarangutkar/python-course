@@ -1,0 +1,4 @@
+tups = (7,5,7,8)
+
+print("The details :- ", tups)
+print("The index of 85 :- ", tups.count(7))
