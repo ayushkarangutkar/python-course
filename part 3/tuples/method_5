@@ -1,0 +1,8 @@
+tups = (84,90,88,95)
+
+print("\n")
+print("The details :- ", tups)
+print("The index of 85 :- ", tups.index(90))
+print("\n")
+print("The details :- ",tups)
+print("The count method :- ",tups.count(95))
