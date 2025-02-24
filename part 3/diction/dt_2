@@ -1,0 +1,12 @@
+student = {
+    "name":"soham",
+    "subjects" : ["python","java"],
+    "car":("model1","model2"),
+    "age":98,
+    "percentage":95.87,
+    "is_adult":True
+}
+
+print("The details :- ",student)
+print(student["car"])
+print(student["age"])
