@@ -1,0 +1,8 @@
+student = {
+    "name":"soham",
+         "phy" : 97,
+         "chm" : 95,
+         "mat" : 94
+}
+
+print("The details :- ",student)
