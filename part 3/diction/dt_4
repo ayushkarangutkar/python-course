@@ -1,0 +1,12 @@
+student = {
+    "name":"soham",
+    "subjects" : ["python","java"],
+    "car":("model1","model2"),
+    "age":98,
+    "percentage":95.87,
+    "is_adult":True
+}
+
+null_dict = {}
+null_dict["age"] = 80
+print(null_dict)
