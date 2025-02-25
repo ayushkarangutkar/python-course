@@ -1,0 +1,9 @@
+car = {
+    "name" : "soham",
+    "car1" : {
+        "model1" : "Tata",
+        "model2" : "swift"
+        }
+}
+
+print(car)
