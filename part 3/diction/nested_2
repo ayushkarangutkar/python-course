@@ -1,0 +1,12 @@
+marks = {
+    "id" : 7809,
+     "marks1" : {
+         "math" : 90,
+         "phy" : 87,
+         "hisgeo" : 95
+     }
+}
+
+print("The details :- ",marks)
+print("The marks1 :- ",marks["marks1"])
+print("The math :- ",marks["marks1"]["math"])
