@@ -1,0 +1,10 @@
+total = {
+    "name" : "simba",
+     "catfood" : {
+         "royal" : 90,
+         "id" : 87,
+     }
+}
+
+print("The details :- ",total)
+print("The keys method :- ",list[total.items()])
