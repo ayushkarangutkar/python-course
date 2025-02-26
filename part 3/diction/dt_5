@@ -1,0 +1,32 @@
+income = {
+    "id_word" : "simbamax",
+    "worker" : {
+        "work1" : 98,
+        "work2" :87
+    }
+}
+
+print("\n")
+print("The details :- ",income)
+
+print("\n")
+print("The details :- ",income)
+print("The keys method :- ",list[income.keys()])
+
+print("\n")
+print("The details :- ",income)
+print("The keys method :- ",list[income.values()])
+
+print("\n")
+print("The details :- ",income)
+print("The keys method :- ",list[income.items()])
+
+print("\n")
+print("The details :- ",income)
+print("The gets method :- ",income.get("worker"))
+
+print("\n")
+print("The details :- ", income)
+new_dict = {"city": "mumbai", "age": 98}
+income.update(new_dict)
+print("The update :- ", income)
