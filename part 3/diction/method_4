@@ -1,0 +1,10 @@
+collage = {
+    "name" : "soham",
+    "group" : {
+    "id"    : 90,
+    "percentage" : 89.9
+    }
+}
+
+print("The details :- ",collage)
+print("The gets method :- ",collage.get("group"))
