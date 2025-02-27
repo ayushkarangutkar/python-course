@@ -1,0 +1,4 @@
+hike = {9,"hello",7,90,"skills"}
+
+print(hike)
+print(len(hike))
