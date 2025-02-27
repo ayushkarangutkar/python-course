@@ -1,0 +1,6 @@
+inventor = set()
+
+inventor.add("nikola tesla")
+inventor.add("j.oppenheimer")
+
+print(inventor)
