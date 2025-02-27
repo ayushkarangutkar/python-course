@@ -1,0 +1,8 @@
+get = set()
+
+get.add(95)
+get.add(98)
+
+get.remove(95)
+
+print("The remove method:- ",get)
