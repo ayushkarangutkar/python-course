@@ -1,0 +1,7 @@
+def name_it(n, v):
+    name = n
+    ID = v
+    print("The name :- ", name)
+    print("The id :- ", ID)
+    
+name_it("soham", 98)
