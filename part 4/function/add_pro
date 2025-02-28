@@ -1,0 +1,7 @@
+def add(t,n):
+    sum = t+n 
+    print("The addition of two number :- ",sum)
+    return sum
+    
+add(10,20)
+
