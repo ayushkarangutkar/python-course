@@ -1,0 +1,8 @@
+def sum_odd(n):
+    for n in range(1,10):
+    if(n%2 == 1):
+       print("The number :- ",n)
+       sum = sum + i 
+    print("The sum of number :- ",sum)
+    
+sum_odd(1)
