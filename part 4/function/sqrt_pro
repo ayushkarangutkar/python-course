@@ -1,0 +1,12 @@
+
+#def leng(n):
+   # name = n 
+   # print(len(name))
+    
+# leng("The programming of python is not easy for coder ")
+
+def sq(k):
+    number = k*k 
+    print("The square root :- ",number)
+    
+sq(7) 
