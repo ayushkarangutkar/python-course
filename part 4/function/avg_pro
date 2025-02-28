@@ -1,0 +1,7 @@
+def avg(a,b,k):
+    sum = a+b+b
+    per = sum/3
+    print (per)
+    
+n = avg(9,9,9)
+print("The percentage :- ",n)
