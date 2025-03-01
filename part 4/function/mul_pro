@@ -1,0 +1,7 @@
+def mul_pro(n):
+    
+    print("The square root :- ")
+    for i in range(1,n+1):
+        print(n,"*",i," = ",n*i)
+    
+mul_pro(11)
