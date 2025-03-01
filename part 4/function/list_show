@@ -1,0 +1,8 @@
+states = ["Assam","gujarat","punjab","delhi"]
+
+def print_list(list):
+    for val in list :
+        states.sort()
+        print(val,"\n")
+        
+print_list(states)
