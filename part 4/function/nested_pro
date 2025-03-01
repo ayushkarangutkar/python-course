@@ -1,0 +1,14 @@
+def nest_pro(n):
+    
+    age = n
+    if age < 10:
+         print("You are a child", age)
+    elif age < 18:
+       print("You are a teenager", age)
+    elif age < 50:
+       print("You are an adult", age)
+    else:
+      print("You are older", age)
+      
+number = int(input("Enter the age :- "))
+nest_pro(number)
