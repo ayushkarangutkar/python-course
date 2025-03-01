@@ -1,0 +1,7 @@
+color = ["yellow","white","purple","orange","green"]
+
+def color_leng(list):
+    print("The length of list is :- ",len(list))
+  
+print(color)
+print(color_leng(color))
