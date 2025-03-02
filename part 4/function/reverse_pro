@@ -1,0 +1,14 @@
+def reversed_pro(k):
+    num = k 
+    rev=0
+
+    while(num!=0):
+       digit=num%10
+       rev=rev*10 +digit
+       num//=10
+
+    print("The number is :- ",k)
+    print(rev,"number is reverse ")
+       
+ # k = input("Enter the number :- ")
+reversed_pro(1234)
