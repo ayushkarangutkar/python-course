@@ -1,0 +1,14 @@
+class company:
+    print("The details of person :- ")
+    def __init__(self,fullname,id):
+        self.name = fullname
+        self.card = id
+
+s1 = company("At",90)
+s2 = company("soham",95)
+
+print("The person 1 :- ","\n Name :- ",s1.name,"\n Id :- ",s1.card)
+print("The person 2 :- ","\n Name :- ",s2.name,"\n Id :- ",s2.card)
+
+
+
