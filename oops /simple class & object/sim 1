@@ -1,0 +1,7 @@
+class student:
+    id = 121
+    name = "kumar singh"
+    age = 89
+
+s1 = student()
+print("The details of person :- ","\nRoll no :- ",s1.id,"\nname :- ",s1.name,"\nage :- ",s1.age)
