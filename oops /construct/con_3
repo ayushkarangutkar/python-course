@@ -1,0 +1,16 @@
+class candidate:
+     college = "paradox college & ploytechnic"
+
+     def __init__(self):
+         pass
+
+     def __init__(self,full,id,percentage):
+         self.name = full
+         self.card = id
+         self.result = percentage
+
+a1 = candidate("simba",7898,90.000)
+print(candidate.college)
+print("The name :-  ",a1.name)
+print("The  id :- ",a1.card)
+print("The result :- ",a1.result)
