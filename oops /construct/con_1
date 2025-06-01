@@ -1,0 +1,9 @@
+class college:
+    def __init__(self,fullname,measure):
+        self.name = fullname
+        self.build = measure
+
+c1 = college("vana",89*55)
+print("The building of college :- ")
+print("The name :- ",c1.name)
+print("The measure :- ",c1.build,"meters")
