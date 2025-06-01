@@ -1,0 +1,14 @@
+class student :
+     college_name = "navjeevan"
+
+     def __init__(self):
+         pass
+
+     def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+        print("The adding new student in database")
+
+s1 = student("karan",97)
+print("The college details are :- ",student.college_name)
+print(s1.name,s1.marks)
