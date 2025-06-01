@@ -1,0 +1,10 @@
+class top:
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+
+    def hello(self):
+        print("The name :- "," ",self.name,"\nmarks :- "," ",self.marks)
+
+s1 = top("simba",98)
+s1.hello()
