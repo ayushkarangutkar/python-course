@@ -1,0 +1,20 @@
+#static method_2
+
+class person:
+    def __init__(self,name,id,salary):
+        self.name = name
+        self.id = id
+        self.salary = salary
+
+    @staticmethod
+    def hello():
+        print("Hello")
+
+    def get_avg(self):
+        print("The name of person :- ",self.name)
+        print("The id of person :- ",self.id)
+        print("The salary of person :- ",self.salary)
+
+p1 = person("Sk",78,90000.89)
+p1.get_avg()
+p1.hello()
