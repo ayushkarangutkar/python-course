@@ -1,0 +1,11 @@
+#Abstraction
+
+class student:
+    def __init__(self,name):
+        self.acc = name
+
+    def start(self):
+        print("car started ",self.acc)
+
+student1 = student("karan")
+student1.start()
