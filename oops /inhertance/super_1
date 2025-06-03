@@ -1,0 +1,18 @@
+class car:
+    def __init__(self,type):
+        self.type = type
+    @staticmethod
+    def start():
+        print("Car started")
+    @staticmethod
+    def stop():
+        print("Car stopped")
+
+class Toyata(car):
+    def __init__(self,name,type):
+        self.name = name
+        super().__init__(type)
+
+car1 = Toyata("Electric ","PHEV")
+print(car1.type)
+print(car1.start())
