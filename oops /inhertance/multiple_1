@@ -1,0 +1,19 @@
+class person:
+    print("The person came last ")
+    e_1 = 70000
+    Now_1 = "Also there"
+
+class animal:
+    print("The animal came medium")
+    e_2 = 800000
+    Now_2 = "Some of there"
+
+class earth(person,animal):
+    print("These is came first")
+    e_3 ="The 4.5 billion ago"
+
+e1 = earth()
+
+print("The information 1 :- ",e1.e_1," ",e1.Now_1)
+print("The information 2:- ",e1.e_2," ",e1.Now_2)
+print("The information 3 :- ",e1.e_3)
