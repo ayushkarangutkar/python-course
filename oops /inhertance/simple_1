@@ -1,0 +1,11 @@
+class a:
+    varA = "Welcome to class A"
+class b:
+    varB = "Welcome to class B"
+class c(a,b):
+    varC = "Welcome to class C"
+
+c1 = c()
+print("The upper class :- ",c1.varA)
+print("The medium class - ",c1.varB)
+print("The lower class :- ",c1.varC)
