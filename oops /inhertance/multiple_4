@@ -1,0 +1,21 @@
+class p:
+    def __init__(self,name):
+        self.name = name
+class i:
+    def __init__(self,id):
+        self.id = id
+class s:
+    def __init__(self,salary):
+        self.salary = salary
+class person(p,i,s):
+    def __init__(self,name,id,salary):
+        print("The details of person :- ")
+        p.__init__(self,name)
+        i.__init__(self,id)
+        s.__init__(self,salary)
+
+p1 = person("Soham",78,90000)
+
+print("The person of name :- ",p1.name)
+print("The person id :- ",p1.id)
+print("The person salary :- ",p1.salary)
