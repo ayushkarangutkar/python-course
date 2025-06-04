@@ -1,0 +1,20 @@
+class people:
+    name = "Anonymons"
+    id = "Anonymons"
+    salary = "Anonymons"
+
+    @classmethod
+    def changeName(cls,name,id):
+        cls.name = name
+        cls.id = id
+
+    @classmethod
+    def money(cls,salary):
+        cls.salary = salary
+
+p1 = people()
+p1.changeName("sk",89)
+p1.money(789000)
+print("The name of person :- ",p1.name)
+print("The id of person :- ",p1.id)
+print("The salary of person :- ",p1.salary)
