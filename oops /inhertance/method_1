@@ -1,0 +1,11 @@
+class person:
+    name = "Anonymons"
+
+    @classmethod
+    def changeName(cls,name):
+        cls.name = name
+
+p1 = person()
+p1.changeName("rahul Kumer")
+print("The person name ",p1.name)
+print("The person name_1",person.name)
