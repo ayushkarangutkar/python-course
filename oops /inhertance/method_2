@@ -1,0 +1,13 @@
+class people:
+    name = "Anonymons"
+    id = "Anonymons"
+
+    @classmethod
+    def changeName(cls,name,id):
+        cls.name = name
+        cls.id = id  
+        
+p1 = people()
+p1.changeName("sk",89)
+print("The name of person :- ",p1.name)
+print("The id of person :- ",p1.id)
