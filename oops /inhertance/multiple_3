@@ -1,0 +1,22 @@
+class goalkeeper:
+    def __init__(self, name_1):
+        print("The name of goalkeeper:")
+        self.name_1 = name_1
+
+class footballer:
+    def __init__(self, name_2):
+        print("The name of footballer:")
+        self.name_2 = name_2
+
+class owner(goalkeeper, footballer):
+    def __init__(self, name_1, name_2):
+        print("The team are ready:")
+        goalkeeper.__init__(self, name_1)
+        footballer.__init__(self, name_2)
+
+# Create instance
+w1 = owner("Messi", "Neymer")
+
+# Accessing attributes
+print("The name 1:", w1.name_1)
+print("The name 2:", w1.name_2)
