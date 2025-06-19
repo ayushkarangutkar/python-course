@@ -1,0 +1,16 @@
+def nest_pro(n):
+
+    age = n
+    if age<=18:
+        print("The tax")
+    elif age>=90:
+        print("The income")
+    elif age!=80 :
+        print("The machine")
+    elif age == 25 :
+        print("The lang")
+    else:
+        print("The nothing")
+
+number = int(input("Enter the number :- "))
+nest_pro(number)
